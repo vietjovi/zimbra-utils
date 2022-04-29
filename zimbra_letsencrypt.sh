@@ -3,6 +3,7 @@
 # Author: vietovi@gmail.com
 
 # REF: https://wiki.zimbra.com/wiki/Installing_a_LetsEncrypt_SSL_Certificate
+# NOTE: If you want to use Zimbra it is recommended you use the snap version of Certbot as that supports the --preferred-chain "ISRG Root X1" option which is needed to make it work with Zimbra. 
 ### HOW TO USE
 ## Run The Script with Root Privileges
 ## You also need to download the ISRG Root X1 then place it where you will run the script
